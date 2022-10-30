@@ -989,7 +989,7 @@ let buttons = [{ buttonId: 'menu', buttonText: { displayText: 'Klick Deck' }, ty
 ║╰──────────────────    
 ╚════════════════════`
             let ments = [ownernya, me, ini_mark]
-            let buttons = [{ buttonId: 'owner', buttonText: { displayText: '⌕ Owner' }, type: 1 }]
+            let buttons = [{ buttonId: 'owner', buttonText: { displayText: '⌕ Owner' }, type: 1 },{ buttonId: 'menu', buttonText: { displayText: '⌕ Back' }, type: 1 }]
             await ranzo.sendButtonText(m.chat, buttons, jawab, nyoutube, m, {mentions: ments, quoted: fkontak})
             } 
 break
